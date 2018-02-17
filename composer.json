@@ -1,0 +1,35 @@
+{
+    "name": "stevegrunwell/one-time-callbacks",
+    "description": "Enable WordPress actions and filter callbacks to be called exactly once.",
+    "type": "wordpress-muplugin",
+    "license": "MIT",
+    "keywords": [
+        "wordpress",
+        "wordpress-plugin",
+        "wordpress-plugin-api"
+    ],
+    "authors": [
+        {
+            "name": "Steve Grunwell",
+            "email": "steve@stevegrunwell.com",
+            "homepage": "https://stevegrunwell.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/stevegrunwell/one-time-callbacks/issues",
+        "source": "https://github.com/stevegrunwell/one-time-callbacks"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.2",
+        "composer/installers": "^1.5"
+    },
+    "require-dev": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.4.4",
+        "wimg/php-compatibility": "^8.1",
+        "wp-coding-standards/wpcs": "^0.14"
+    },
+    "autoload": {
+      "files": ["one-time-callbacks.php"]
+    }
+}
